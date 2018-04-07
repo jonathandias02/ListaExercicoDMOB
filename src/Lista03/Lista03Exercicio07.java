@@ -28,7 +28,7 @@ public class Lista03Exercicio07 {
             n = sc.nextFloat();
             char fim = 'c';
             float maior = n, menor = n, media, soma = n;
-            if (n > 0) {
+            if (n >= 0) {
                 do {
                     System.out.println("Media Aluno " + (i + 1) + ":");
                     n = sc.nextFloat();
@@ -41,7 +41,7 @@ public class Lista03Exercicio07 {
                     if (n > maior) {
                         maior = n;
                     }
-                    if (n < menor && n > 0) {
+                    if (n < menor && n >= 0) {
                         menor = n;
                     }
                     if (n > 0) {

@@ -38,7 +38,7 @@ public class Lista02Exercicio03 {
             Arrays.sort(notas);
             
             System.out.println("A maior nota é:" + notas[2]);
-            System.out.println("A media é: " + media);
+            System.out.printf("A media é: %.2f\n", media);
             
         }catch(InputMismatchException e){
             System.out.println("Valor Invalido!");

@@ -26,7 +26,9 @@ public class Lista02Exercicio01 {
             System.out.println("---PAR OU IMPA - POSITIVO OU NEGATIVO---");
             System.out.println("Digite um número: ");
             n = sc.nextInt();
-            if(n%2 == 0){
+            if(n == 0){
+                System.out.println(n + " é Neutro");
+            }else if(n%2 == 0){
                 System.out.println(n + " é PAR");
             }else{
                 System.out.println(n + " é IMPAR");
